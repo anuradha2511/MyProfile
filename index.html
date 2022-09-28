@@ -12,7 +12,7 @@
         .header_section {
             color: rgb(14, 12, 12);
             text-align: center;
-            background-color:#e8ecef;
+            background-color: #e8ecef;
         }
 
         /* .head {
@@ -22,58 +22,86 @@
             padding-bottom: 6px;
         } */
 
-        #nav_bar{
+        #nav_bar {
             font: size 22px;
             font-weight: bold;
             text-transform: uppercase;
             text-align: center;
             font-family: 'Sofia', cursive;
-            background-color:#d4f553;
+            background-color: #d4f553;
             color: black;
         }
+
         a {
             text-decoration: none;
         }
+
+        footer div .follow_me {
+            margin-right: 30px;
+        }
+
+        footer div #follow-me-label {
+            font-size: large;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        #nav_bar a {
+            margin-right: 40px;
+
+        }
+        .header{
+            margin-right: 20px;
+            font-style: italic;
+        }
+        .footer{
+            text-align: center;
+            background-color: #e8ecef;
+        }
     </style>
 </head>
+
 <body>
     <div class="head">
         <header class="header_section">
-            <p>
-                <strong>
-                    &nbsp; <i class="fa fa-user-circle-o" aria-hidden="true"></i> &nbsp; Anuradha Patil &nbsp; &nbsp;  &nbsp;
-                    <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; 7262868038 &nbsp; &nbsp; &nbsp;
-                    <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; anuradhapatil251999@gmail.com
-                </strong>
-            </p>
+            <span class="header"> <i class="fa fa-user-circle-o" aria-hidden="true"></i> &nbsp; Anuradha Patil </span>
+            <span class="header"> <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; 7262868038 </span>
+            <span class="header"> <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; anuradhapatil251999@gmail.com </span>
         </header>
     </div>
     <hr>
     <nav id="nav_bar">
-        <a href="home.html" target="my_frame"> HOME </a> &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="my_frame"> TECH STACK</a> &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="my_frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-        <a href="project.html" target="my_frame"> PROJECT</a> &nbsp; &nbsp; &nbsp;
-        <a href="hobbies.html" target="my_frame"> HOBBIES</a> &nbsp; &nbsp; &nbsp;
-        <a href="personalDetails.html" target="my_frame"> PERSONAL</a> &nbsp; &nbsp; &nbsp;
+        <a href="home.html" target="my_frame"> HOME </a>
+        <a href="techStack.html" target="my_frame"> TECH STACK</a>
+        <a href="education.html" target="my_frame"> EDUCATION </a>
+        <a href="project.html" target="my_frame"> PROJECT</a>
+        <a href="hobbies.html" target="my_frame"> HOBBIES</a>
+        <a href="personalDetails.html" target="my_frame"> PERSONAL</a>
         <a href="others.html" target="my_frame"> OTHERS</a>
     </nav>
     <hr>
-    &nbsp; &nbsp; &nbsp;
-    <iframe name="my_frame" src="info.html" width="900px" height="500px" style="border:none ;"> </iframe>
-    <footer>
-        <p>
-            <strong> Follow me</strong> &nbsp; &nbsp; &nbsp;
-            <a href="https://in.linkedin.com/" target="_blank">
-                <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> </a> &nbsp; &nbsp;
-            <a href="https://www.google.co.in/" target="_blank">
-                <i class="fa fa-google fa-lg" aria-hidden="true"></i> </a> &nbsp; &nbsp;
-            <a href="https://www.instagram.com/" target="_blank">
-                <i class="fa fa-instagram fa-lg" aria-hidden="true"></i> </a> &nbsp; &nbsp;
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> </a> &nbsp; &nbsp;
-        </p>
-
+    <br>
+    <iframe name="my_frame" src="info.html" width="900px" height="500px" style="border:none;"> </iframe>
+    <footer class="footer">
+        <div>
+            <span id="follow-me-label"> Follow me</span>
+            <span class="follow_me">
+                <a href="https://in.linkedin.com/" target="_blank">
+                    <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> </a>
+            </span>
+            <span class="follow_me">
+                <a href="https://www.google.co.in/" target="_blank">
+                    <i class="fa fa-google fa-lg" aria-hidden="true"></i> </a>
+            </span>
+            <span class="follow_me">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i> </a>
+            </span>
+            <span class="follow_me">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> </a>
+            </span>
+        </div>
     </footer>
 
 </body>
