@@ -15,13 +15,6 @@
             background-color: #e8ecef;
         }
 
-        /* .head {
-            border: 2px solid black;
-            height: 40px;
-            background-color:#eeb0ba;
-            padding-bottom: 6px;
-        } */
-
         #nav_bar {
             font: size 22px;
             font-weight: bold;
@@ -36,25 +29,48 @@
             text-decoration: none;
         }
 
-        footer div .follow_me {
-            margin-right: 30px;
+        .footer ul li{
+            display: inline-block;
+            margin-right: 20px;
+            padding-top: 10px;
+            text-shadow: 3px 4px 6px #b22050;
+            font-weight: bold;
+            font-size: large;
         }
 
-        footer div #follow-me-label {
+        /* footer div #follow-me-label {
             font-size: large;
             font-weight: bold;
             margin-right: 40px;
-        }
+            text-shadow: 3px 4px 5px #ce4753;
+
+        } */
 
         #nav_bar a {
             margin-right: 40px;
+            text-shadow: 4px 2px 5px #2c3e50;
 
         }
-        .header{
+
+        #nav_bar a:hover {
+            text-shadow: 4px 2px 5px #c91322;
+            text-decoration: underline;
+        }
+
+        /* .header {
             margin-right: 20px;
             font-style: italic;
+
+        } */
+
+        .header_section ul li {
+            display: inline-block;
+            margin-right: 20px;
+            font-style: italic;
+
         }
-        .footer{
+
+        .footer {
             text-align: center;
             background-color: #e8ecef;
         }
@@ -62,13 +78,15 @@
 </head>
 
 <body>
-    <div class="head">
+    <!-- <div> -->
         <header class="header_section">
-            <span class="header"> <i class="fa fa-user-circle-o" aria-hidden="true"></i> &nbsp; Anuradha Patil </span>
-            <span class="header"> <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; 7262868038 </span>
-            <span class="header"> <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; anuradhapatil251999@gmail.com </span>
+            <ul>
+                <li> <i class="fa fa-user-circle-o" aria-hidden="true"></i> &nbsp; Anuradha Patil </li>
+                <li> <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; 7262868038 </li>
+                <li> <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; anuradhapatil251999@gmail.com </li>
+            </ul>
         </header>
-    </div>
+    <!-- </div> -->
     <hr>
     <nav id="nav_bar">
         <a href="home.html" target="my_frame"> HOME </a>
@@ -84,23 +102,24 @@
     <iframe name="my_frame" src="info.html" width="900px" height="500px" style="border:none;"> </iframe>
     <footer class="footer">
         <div>
-            <span id="follow-me-label"> Follow me</span>
-            <span class="follow_me">
-                <a href="https://in.linkedin.com/" target="_blank">
-                    <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> </a>
-            </span>
-            <span class="follow_me">
-                <a href="https://www.google.co.in/" target="_blank">
-                    <i class="fa fa-google fa-lg" aria-hidden="true"></i> </a>
-            </span>
-            <span class="follow_me">
-                <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i> </a>
-            </span>
-            <span class="follow_me">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> </a>
-            </span>
+            <ul>
+             <li> Follow me </li>
+            <!-- <span class="follow_me"> -->
+              <li>  <a href="https://in.linkedin.com/" target="_blank">
+                    <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> </a> </li>
+            <!-- </span> -->
+            <!-- <span class="follow_me"> -->
+               <li> <a href="https://www.google.co.in/" target="_blank">
+                    <i class="fa fa-google fa-lg" aria-hidden="true"></i> </a> </li>
+            <!-- </span>
+            <span class="follow_me"> -->
+               <li> <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i> </a> </li>
+            <!-- </span>
+            <span class="follow_me"> -->
+               <li> <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> </a> </li>
+                </ul>
         </div>
     </footer>
 
